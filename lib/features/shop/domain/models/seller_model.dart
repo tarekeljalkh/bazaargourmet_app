@@ -1,6 +1,6 @@
-import 'package:flutter_sixvalley_ecommerce/data/model/image_full_url.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
+import 'package:bazaargourmet_ecommerce/data/model/image_full_url.dart';
+import 'package:bazaargourmet_ecommerce/features/splash/controllers/splash_controller.dart';
+import 'package:bazaargourmet_ecommerce/main.dart';
 import 'package:provider/provider.dart';
 
 class SellerModel {

@@ -5,51 +5,51 @@ import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_sixvalley_ecommerce/data/local/cache_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/controllers/facebook_login_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/controllers/google_login_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/banner/controllers/banner_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/checkout/controllers/checkout_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/controllers/compare_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/contact_us/controllers/contact_us_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/deal/controllers/featured_deal_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/deal/controllers/flash_deal_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/location/controllers/location_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/loyaltyPoint/controllers/loyalty_point_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/notification/controllers/notification_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/onboarding/controllers/onboarding_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order/controllers/order_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order_details/controllers/order_details_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/controllers/product_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/controllers/seller_product_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product_details/controllers/product_details_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/profile/controllers/profile_contrroller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/refund/controllers/refund_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/reorder/controllers/re_order_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/restock/controllers/restock_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/review/controllers/review_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shipping/controllers/shipping_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/screens/splash_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/support/controllers/support_ticket_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wallet/controllers/wallet_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wishlist/controllers/wishlist_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/controllers/localization_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/push_notification/models/notification_body.dart';
-import 'package:flutter_sixvalley_ecommerce/features/address/controllers/address_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/controllers/auth_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/brand/controllers/brand_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/controllers/cart_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/category/controllers/category_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/chat/controllers/chat_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/coupon/controllers/coupon_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/search_product/controllers/search_product_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/controllers/shop_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/push_notification/notification_helper.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/controllers/theme_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/dark_theme.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/light_theme.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
+import 'package:bazaargourmet_ecommerce/data/local/cache_response.dart';
+import 'package:bazaargourmet_ecommerce/features/auth/controllers/facebook_login_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/auth/controllers/google_login_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/banner/controllers/banner_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/checkout/controllers/checkout_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/compare/controllers/compare_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/contact_us/controllers/contact_us_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/deal/controllers/featured_deal_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/deal/controllers/flash_deal_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/location/controllers/location_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/loyaltyPoint/controllers/loyalty_point_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/notification/controllers/notification_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/onboarding/controllers/onboarding_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/order/controllers/order_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/order_details/controllers/order_details_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/product/controllers/product_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/product/controllers/seller_product_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/product_details/controllers/product_details_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/profile/controllers/profile_contrroller.dart';
+import 'package:bazaargourmet_ecommerce/features/refund/controllers/refund_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/reorder/controllers/re_order_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/restock/controllers/restock_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/review/controllers/review_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/shipping/controllers/shipping_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/splash/controllers/splash_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/splash/screens/splash_screen.dart';
+import 'package:bazaargourmet_ecommerce/features/support/controllers/support_ticket_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/wallet/controllers/wallet_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/wishlist/controllers/wishlist_controller.dart';
+import 'package:bazaargourmet_ecommerce/localization/controllers/localization_controller.dart';
+import 'package:bazaargourmet_ecommerce/push_notification/models/notification_body.dart';
+import 'package:bazaargourmet_ecommerce/features/address/controllers/address_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/auth/controllers/auth_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/brand/controllers/brand_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/cart/controllers/cart_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/category/controllers/category_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/chat/controllers/chat_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/coupon/controllers/coupon_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/search_product/controllers/search_product_controller.dart';
+import 'package:bazaargourmet_ecommerce/features/shop/controllers/shop_controller.dart';
+import 'package:bazaargourmet_ecommerce/push_notification/notification_helper.dart';
+import 'package:bazaargourmet_ecommerce/theme/controllers/theme_controller.dart';
+import 'package:bazaargourmet_ecommerce/theme/dark_theme.dart';
+import 'package:bazaargourmet_ecommerce/theme/light_theme.dart';
+import 'package:bazaargourmet_ecommerce/utill/app_constants.dart';
 import 'package:provider/provider.dart';
 import 'di_container.dart' as di;
 import 'helper/custom_delegate.dart';
@@ -65,23 +65,24 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
 
-  if(Firebase.apps.isEmpty) {
-    if(Platform.isAndroid) {
-      try{
-        ///todo you need to configure that firebase Option with your own firebase to run your app
-        await Firebase.initializeApp(options: const FirebaseOptions(
-            apiKey: "current_key here",
-            projectId: "mobilesdk_app_id here",
-            messagingSenderId: "project_number here",
-            appId: "project_id here"
-        ));
-      }finally{
-        await Firebase.initializeApp();
-      }
-    }else{
-      await Firebase.initializeApp();
-    }
-  }
+  // if(Firebase.apps.isEmpty) {
+  //   if(Platform.isAndroid) {
+  //     try{
+  //       ///todo you need to configure that firebase Option with your own firebase to run your app
+  //       await Firebase.initializeApp(options: const FirebaseOptions(
+  //           apiKey: "current_key here",
+  //           projectId: "mobilesdk_app_id here",
+  //           messagingSenderId: "project_number here",
+  //           appId: "project_id here"
+  //       ));
+  //     }finally{
+  //       await Firebase.initializeApp();
+  //     }
+  //   }else{
+  //     await Firebase.initializeApp();
+  //   }
+  // }
+
   await FlutterDownloader.initialize(debug: true, ignoreSsl: true);
   await di.init();
 

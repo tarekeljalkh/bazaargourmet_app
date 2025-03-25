@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
+import 'package:bazaargourmet_ecommerce/utill/dimensions.dart';
 
 
 class PaginatedListView extends StatefulWidget {

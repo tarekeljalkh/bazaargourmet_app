@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/image_full_url.dart';
+import 'package:bazaargourmet_ecommerce/data/model/image_full_url.dart';
 
 class ConfigModel {
   String? brandSetting;

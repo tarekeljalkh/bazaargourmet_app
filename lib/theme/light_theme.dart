@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 ThemeData light({Color? primaryColor, Color? secondaryColor})=> ThemeData(
   fontFamily: 'TitilliumWeb',
-  primaryColor: primaryColor ?? const Color(0xFF1455AC),
+  primaryColor: primaryColor ?? const Color(0xFFB18F4F),
   brightness: Brightness.light,
   highlightColor: Colors.white,
   hintColor: const Color(0xFF9E9E9E),
   splashColor: Colors.transparent,
   colorScheme:  ColorScheme.light(
-    primary: const Color(0xFF1455AC),
-    secondary: const Color(0xFF004C8E),
+    primary: const Color(0xFFB18F4F),
+    secondary: const Color(0xFF9E6700),
     tertiary: const Color(0xFFF9D4A8),
     tertiaryContainer: const Color(0xFFADC9F3),
     onTertiaryContainer: const Color(0xFF33AF74),
@@ -18,7 +18,7 @@ ThemeData light({Color? primaryColor, Color? secondaryColor})=> ThemeData(
     onSecondary: secondaryColor ?? const Color(0xFFF88030),
     error: const Color(0xFFFF5555),
     onSecondaryContainer: const Color(0xFFF3F9FF),
-    outline: const Color(0xff2C66B4),
+    outline: const Color(0xFFB18F4F),
     onTertiary: const Color(0xFFE9F3FF),
 
 

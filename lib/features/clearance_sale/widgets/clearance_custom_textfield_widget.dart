@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/controllers/localization_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
+import 'package:bazaargourmet_ecommerce/localization/controllers/localization_controller.dart';
+import 'package:bazaargourmet_ecommerce/utill/custom_themes.dart';
+import 'package:bazaargourmet_ecommerce/utill/dimensions.dart';
 import 'package:provider/provider.dart';
 
 extension EmailValidator on String {
