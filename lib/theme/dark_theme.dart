@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 ThemeData dark = ThemeData(
-  fontFamily: 'TitilliumWeb',
+  fontFamily: 'Arial',
   primaryColor: const Color(0xFFB18F4F),
   brightness: Brightness.dark,
   highlightColor: const Color(0xFF252525),

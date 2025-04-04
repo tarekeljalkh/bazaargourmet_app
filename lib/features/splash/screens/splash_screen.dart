@@ -250,16 +250,16 @@ class SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
+      backgroundColor: Theme.of(context).highlightColor,
       key: _globalKey,
       body: Provider.of<SplashController>(context).hasConnection ?
       Center(child: Column(mainAxisSize: MainAxisSize.min, children: [
         BouncyWidget(
             duration: const Duration(milliseconds: 2000), lift: 50, ratio: 0.5, pause: 0.25,
             child: SizedBox(width: 150, child: Image.asset(Images.icon, width: 150.0))),
-        Text(AppConstants.appName,style: textRegular.copyWith(fontSize: Dimensions.fontSizeOverLarge, color: Colors.white)),
+        // Text(AppConstants.appName,style: textRegular.copyWith(fontSize: Dimensions.fontSizeOverLarge, color: Colors.white)),
         Padding(padding: const EdgeInsets.only(top: Dimensions.paddingSizeSmall),
-            child: Text(AppConstants.slogan,style: textRegular.copyWith(fontSize: Dimensions.fontSizeDefault, color: Colors.white)))]),
+            child: Text(AppConstants.slogan,style: textRegular.copyWith(fontSize: Dimensions.fontSizeDefault, color: Colors.black)))]),
       ) : const NoInternetOrDataScreenWidget(isNoInternet: true, child: SplashScreen()),
     );
   }
